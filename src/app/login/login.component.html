@@ -1,0 +1,25 @@
+<div class="center">
+	<h1>Login</h1>
+
+	<h3>Email</h3>
+	<span class="p-input-icon-right">
+    <i class="pi pi-envelope"></i>
+    <input type="text" (keyup)="onKeyUp($event)"  pInputText />
+    </span>
+	
+	<h3>Senha</h3>
+    <span class="p-input-icon-right">
+    <i class="pi pi-lock"></i>
+    <input type="password" (keyup)="onKeyUp($event)"pInputPassword />
+    </span>
+	<hr/>
+
+    <button pButton type="button" label="Login" class="p-button-info"></button>
+	<br>
+
+    <p-button label="Esqueceu a senha?" styleClass="p-button-link"></p-button>
+	<hr>
+
+	<button pButton type="button" label="Criar nova conta" class="p-button-success"></button>
+    
+</div>
